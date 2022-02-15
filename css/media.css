@@ -1,0 +1,39 @@
+@media(max-width:900px){
+    section .banner{background-image: url(Developer.jpg); background-size: cover; height: 500px;}
+    .con{top: 200px; left: 0px; justify-content: space-evenly;}
+    .a2, .a4{display: none;}
+    
+    nav {
+      background-color: chartreuse;
+      padding: 2.5%;
+    }
+    .left {
+      width: 36%;
+    }
+    .mid {
+      display: block;
+    }
+    .right {
+      width: 100%;
+      border: 1px solid rgb(145, 139, 139);
+      margin-top: 1.5%;
+      display: none;
+    }
+    .right ul {
+      flex-direction: column;
+    }
+    .right ul li {
+      margin: 2% 0 2% 5%;
+    
+    
+}
+}
+@media(max-width:600px){
+    
+    header .nev{display: none;}
+    section .banner{background-image: url(3.jpg); background-size: cover; width: 600px; height: 400px;}
+    .con{top: 550px; left: auto; display: block;}
+     .con .a4{display: none;}
+    .card{width: 400px; height: 200px; display: block; margin: auto;  border-radius: 0; border: 2px solid gray; background-color: chartreuse;}
+    .menu{display: inline; width: 70px ; font-size: 3.5rem; color: black;}
+}
