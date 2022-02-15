@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script
+      src="https://kit.fontawesome.com/ffd161b5f3.js"
+      crossorigin="anonymous"
+    ></script>
+    <link href="https://cdn.lineicons.com/3.0/lineicons.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+</head>
+<body>
+  <nav>
+    <div class="left">
+      <h1>MEDIA screen</h1>
+    </div>
+    <div class="mid">
+      <i class="fa-solid fa-bars"></i>
+    </div>
+    <div class="right">
+      <ul>
+        <li>
+          <a href="#">Home</a>
+        </li>
+        <li>
+          <a href="#">About</a>
+        </li>
+        <li>
+          <a href="#">Blogs</a>
+        </li>
+        <li>
+          <a href="#">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+ <section>
+     <div class="banner"></div>
+     <div class="con">
+    <div class="card a1"><i class="lni lni-envelope b1"></i></div>
+     <div class="card a2"><i class="lni lni-world b1"></i></div>
+     <div class="card a3"><i class="lni lni-question-circle b1"></i></div>
+     <div class="card a4"><i class="lni lni-cogs b1"></i></div>
+    </div>
+ </section>  
+ <script src="jquery-3.6.0.min.js"></script>
+ <script>
+     $(document).ready(function () {
+        $(".fa-bars").click(function () {
+          $(".right").animate({
+            height: "toggle",
+          });
+        });
+    });
+ </script> 
+</body>
+</html>
